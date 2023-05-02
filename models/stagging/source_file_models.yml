@@ -1,0 +1,7 @@
+version: 2
+sources:
+- name: cte1_source
+  database: AIRBYTE_DBT_INTEGRATION
+  schema: PUBLIC
+  tables:
+    - name: _AIRBYTE_RAW_COINCAP
